@@ -1,0 +1,22 @@
+<div class="welcome__wrapper">
+  <div class="project__wrapper">
+    <div class="project__logo">
+      <img src="../../../../assets/img/logo-2.png" alt="project logo" class="project__logo--img">
+      <div class="project__logo--text" l10nTranslate>welcome.mainText</div>
+    </div>
+    <img src="../../../../assets/img/welcome-img-work.png" alt="work" class="project__work">
+  </div>
+  <mat-tab-group mat-align-tabs="center" class="tabs">
+    <mat-tab label="{{ 'welcome.label1' | translate:locale.language }}">
+      <div class="tab tab--opportunities">
+        <img src="../../../../assets/img/advantages-img.png" alt="work" class="project__work">
+        <ul>
+          <li class="tabs__item" l10nTranslate>welcome.advantages1</li>
+          <li class="tabs__item" l10nTranslate>welcome.advantages2</li>
+          <li class="tabs__item" l10nTranslate>welcome.advantages3</li>
+          <li class="tabs__item" l10nTranslate>welcome.advantages4</li>
+        </ul>
+      </div>
+    </mat-tab>
+  </mat-tab-group>
+</div>
